@@ -4,7 +4,7 @@ namespace LittleEngine {
 
 	void FirstApp::run() {
 		while (!littleEngineWindow.ShouldClose()) {
-			glfwPollEvents();
+			littleEngineWindow.PollEvents();
 		}
 	}
 
